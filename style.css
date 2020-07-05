@@ -1,0 +1,21 @@
+h2, h1 {
+    color: rgb(101, 23, 146);
+    font-family: Lobster, "sans serif";
+}
+
+.light-purple{
+    color: rgb(153, 101, 184);
+    font-size: 30px;
+    font-family: monospace;
+}
+li {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.body-background{
+    background-color: silver;
+}
+
+
+
