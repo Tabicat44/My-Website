@@ -5,21 +5,55 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"
     type="text/css">
+    <!--Link to get Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Link to make sure Bootstrap works on phones-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
 </head>
-    <body class="body-background">
+    <body id="body-background">
         <!--Intro to Page -->
-        <div>
-        <h1 id="top-of-page"> Tabitha Ernst </h1>
-        <img src="20191121_124732.jpg" alt= "Photo of me">
-        <h2>Welcome to my World!</h2>
-        <p class="light-purple">This website is all about me, Tabitha!
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4" style="background-color: rgb(153, 101, 184);"></div>
+                <div class="col-sm-4" style="background-color: rgb(153, 101, 184);">
+                    <h1>Tabitha Ernst</h1></div>
+                <div class="col-sm-4" style="background-color: rgb(153, 101, 184);"></div>
+            </div>
+            <!--FIX THIS.  IT'S SUPPOSED TO BE CENTERED-->
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4"><img src="20191121_124732.jpg" alt= "Photo of me"></div>
+                <div class="col-sm-4"></div>
+            </div>
+            <!--END PART THAT NEEDS ATTENTION-->
+            <!--Welcome to my World Title-->
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4"><h2>Welcome ot my World!</h2></div>
+                <div class="col-sm-4"></div>
+            </div>
+            <!-- <h2>Welcome to my World!</h2> -->
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-10"><p class="light-purple">This website is all about me, Tabitha!
+                        Take a glimpse at
+                        some of my photos and my resume to learn more about who I
+                        am.  You can also contact me by clicking
+                        <a href="contact.html">here</a>.
+                        </p></div>
+
+            <!-- <p class="light-purple">This website is all about me, Tabitha!
             Take a glimpse at
             some of my photos and my resume to learn more about who I
             am.  You can also contact me by clicking
             <a href="contact.html">here</a>.
-        </p>
+            </p> -->
 
-    </div>
+            </div>
+
+        </div>
         <!--End Intro to Page-->
 
         <!--Mid-page-->
@@ -38,7 +72,7 @@
             <li><a href="#" target="_blank">Adobe Stock Photo</a></li>
         </ol>
 
-        <h3>Tell me the name of YOUR favorite country!</h3>
+        <h3>Tell me the name of <mark>your</mark> favorite country!</h3>
         <input type="text" placeholder="Country name">
         <br>
         <br>
