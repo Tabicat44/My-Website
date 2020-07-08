@@ -22,10 +22,13 @@
                 <div class="col-sm-4" style="background-color: rgb(153, 101, 184);"></div>
             </div>
             <!--FIX THIS.  IT'S SUPPOSED TO BE CENTERED-->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-sm-4"></div>
-                <div class="col-sm-4"><img src="20191121_124732.jpg" alt= "Photo of me"></div>
                 <div class="col-sm-4"></div>
+                <div class="col-sm-4"></div>
+            </div> -->
+            <div class="container">
+                <img src="20191121_124732.jpg" class="img-responsive img-thumbnail" alt= "Photo of me">
             </div>
             <!--END PART THAT NEEDS ATTENTION-->
             <!--Welcome to my World Title-->
@@ -35,9 +38,8 @@
                 <div class="col-sm-4"></div>
             </div>
             <!-- <h2>Welcome to my World!</h2> -->
-            <div class="row">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-10"><p class="light-purple">This website is all about me, Tabitha!
+            <div class="container">
+                <div class="text-center"><p class="light-purple">This website is all about me, Tabitha!
                         Take a glimpse at
                         some of my photos and my resume to learn more about who I
                         am.  You can also contact me by clicking
@@ -57,22 +59,63 @@
         <!--End Intro to Page-->
 
         <!--Mid-page-->
-        <h3>Who Am I?</h3>
-        <ul>
+        <!--Who Am I with Thumbnails-->
+        <div class="container">
+        <h5>Who Am I?</h5>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="thumnail">
+                    <img src="Model.jpg" alt="Modeling photo of Tabitha" style="width:100%">
+                    <div class="caption">
+                        <p>Model</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumnail">
+                    <img src="Travel.jpg" alt="Photo from Tabitha's Travel Gallery" style="width:100%">
+                    <div class="caption">
+                        <p>Traveler</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumnail">
+                    <img src="Photography.jpg" alt="Photo from Tabitha's Photo Gallery" style="width:100%">
+                    <div class="caption">
+                        <p>Photographer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumnail">
+                    <img src="Photography.jpg" alt="Tabitha being a Web Developer" style="width:100%">
+                    <div class="caption">
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Old way of listing who I am-->
+        <!-- <ul>
             <li>Model</li>
             <li>Photographer</li>
             <li>Traveler</li>
             <li>Website Developer</li>
-        </ul>
+        </ul> -->
 
-        <h3>Places where you can purchaes my photography:</h3>
+        </div>
+        <h5>Places where you can purchaes my photography:</h5>
         <ol>
             <li><a href="https://www.pond5.com/my-untagged-uploads"
                 target="_blank">Pond5</a></li>
             <li><a href="#" target="_blank">Adobe Stock Photo</a></li>
         </ol>
 
-        <h3>Tell me the name of <mark>your</mark> favorite country!</h3>
+        <h5>Tell me the name of <mark>your</mark> favorite country!</h5>
         <input type="text" placeholder="Country name">
         <br>
         <br>

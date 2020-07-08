@@ -6,6 +6,11 @@ h2, h1 {
     font-family: Lobster, "sans serif";
     text-align: center;
 }
+h5{
+  color: rgb(101, 23, 146);
+  font-family: Lobster,"sans serif";
+  text-align: center;
+}
 
 .light-purple{
     color: rgb(153, 101, 184);
